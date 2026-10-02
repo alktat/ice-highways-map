@@ -4364,7 +4364,7 @@
             }
         },
         {
-            "name": "Philadelphia (30th Street)",
+            "name": "Philadelphia (30th Street Station)",
             "id": 374,
             "x": -27133,
             "z": -7216,
@@ -4372,14 +4372,10 @@
                 "America": {
                     "Atlantic": ["", "Westbound Tube to Eastbound Tube"]
                 },
-                "Philadelphia Subway System": {
-                    "L": ["", ""]
-                }
             },
             "areas": [
-                [[-27132, -7222], [-27134, -7210]],
-                [[-27080, -7215], [-27134, -7217]],
-                [[-27082, -7207], [-27080, -7217]]
+                [[-27212, -7209], [-27090, -7223]],
+				[[-27108 , -7202]], [[-27139 , -7230]]
             ]
         },
         {
@@ -4388,7 +4384,7 @@
             "x": -27258,
             "z": -7207,
             "lines": {
-                "Philadelphia Subway System": {
+                "SEPTA": {
                     "L": ["", ""]
                 }
             }
@@ -4399,7 +4395,7 @@
             "x": -27031,
             "z": -7338,
             "lines": {
-                "Philadelphia Subway System": {
+                "SEPTA": {
                     "B": ["", ""]
                 }
             }
@@ -4446,7 +4442,7 @@
             "x": -27031,
             "z": -7112,
             "lines": {
-                "Philadelphia Subway System": {
+                "SEPTA": {
                     "B": ["", ""]
                 }
             }
@@ -4469,7 +4465,7 @@
             "x": -26854,
             "z": -7207,
             "lines": {
-                "Philadelphia Subway System": {
+                "SEPTA": {
                     "L": ["", ""]
                 }
             }
@@ -4480,7 +4476,7 @@
             "x": -26938,
             "z": -7207,
             "lines": {
-                "Philadelphia Subway System": {
+                "SEPTA": {
                     "L": ["", ""]
                 }
             }
@@ -4491,7 +4487,7 @@
             "x": -27031,
             "z": -7207,
             "lines": {
-                "Philadelphia Subway System": {
+                "SEPTA": {
                     "L": ["", ""],
                     "B": ["", ""]
                 }
@@ -13391,11 +13387,11 @@
                 }
             }
         },
-        "Philadelphia Subway System": {
+        "SEPTA": {
             "L": {
                 "prefix": "",
                 "code": "",
-                "color": "1c9ad6",
+                "color": "0099d6",
                 "y": 60,
                 "branches": {
                     "": {
@@ -13410,7 +13406,7 @@
             "B": {
                 "prefix": "",
                 "code": "",
-                "color": "ff6319",
+                "color": "f26929",
                 "y": 60,
                 "branches": {
                     "": {
@@ -13419,6 +13415,58 @@
                             [-27031, -7100]
                         ],
                         "stations": [376, 384, 380]
+                    }
+                }
+            }
+            "T": {
+                "prefix": "",
+                "code": "",
+                "color": "61A744",
+                "y": 60,
+                "branches": {
+                    "": {
+                        "vertices": [
+                        ],
+                        "stations":
+                    }
+                }
+            }
+            "G": {
+                "prefix": "",
+                "code": "",
+                "color": "FDD800",
+                "y": 60,
+                "branches": {
+                    "": {
+                        "vertices": 
+
+                        "stations": 
+                    }
+                }
+            }
+            "D": {
+                "prefix": "",
+                "code": "",
+                "color": "E5417A",
+                "y": 60,
+                "branches": {
+                    "": {
+                        "vertices": 
+
+                        "stations": 
+                    }
+                }
+            }
+        },
+            "PATCO": {
+                "prefix": "",
+                "code": "",
+                "color": "C5203F",
+                "y": 60,
+                "branches": {
+                    "": {
+                        "vertices": 
+                        "stations":
                     }
                 }
             }
