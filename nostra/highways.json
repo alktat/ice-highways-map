@@ -481,7 +481,7 @@
             "x": 42207,
             "z": 21108,
             "lines": {
-                "Ausrail": {
+                "PTA": {
                     "Westralia": ["", "Main line"]
                 }
             }
@@ -492,7 +492,7 @@
             "x": 43276,
             "z": 20539,
             "lines": {
-                "Ausrail": {
+                "PTA": {
                     "Westralia": ["", "Main line"]
                 }
             }
@@ -503,7 +503,7 @@
             "x": 44360,
             "z": 20526,
             "lines": {
-                "Ausrail": {
+                "PTA": {
                     "Westralia": ["", "Main line"]
                 }
             }
@@ -3494,7 +3494,7 @@
             "x": 43276,
             "z": 20521,
             "lines": {
-                "Ausrail": {
+                "PTA": {
                     "Esperance Link": ["", "Main line"]
                 }
             }
@@ -3505,7 +3505,7 @@
             "x": 41993,
             "z": 20241,
             "lines": {
-                "Ausrail": {
+                "PTA": {
                     "Esperance Link": ["", "Main line"]
                 }
             }
@@ -3516,7 +3516,7 @@
             "x": 41531,
             "z": 19936,
             "lines": {
-                "Ausrail": {
+                "PTA": {
                     "Esperance Link": ["", "Main line"]
                 }
             }
@@ -3879,7 +3879,7 @@
             "x": 41469,
             "z": 20499,
             "lines": {
-                "Ausrail": {
+                "PTA": {
                     "Westralia": ["", "Main line"]
                 }
             }
@@ -3890,7 +3890,7 @@
             "x": 41529,
             "z": 19936,
             "lines": {
-                "Ausrail": {
+                "PTA": {
                     "Westralia": ["", "Main line"]
                 }
             }
@@ -5942,8 +5942,7 @@
             "z": -17732,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Main line"],
-                    "Lappeenranta": ["", "Main line"]
+                    "Siberia Main": ["", "Main line to Lappeenranta branch"]
                 }
             }
         },
@@ -5954,7 +5953,7 @@
             "z": -17154,
             "lines": {
                 "TNIH": {
-                    "Lappeenranta": ["", "Main line"]
+                    "Siberia Main": ["", "Lappeenranta branch"]
                 }
             }
         },
@@ -6784,8 +6783,7 @@
             "lines": {
                 "Finland Public Ice Highway": {
                     "Line 1": ["", "Main line"],
-                    "Line 2": ["", "Main line"],
-                    "Line 3": ["", "Main line"]
+                    "Line 2": ["", "Main line"]
                 },
                 "Norwegian Ice Boat Highway System (Vy)": {
                     "Finland": ["", "Main line"]
@@ -6876,20 +6874,9 @@
             "id": 578,
             "x": 9702,
             "z": -17784,
-            "areas": [
-                [[9694, -17787], [9711, -17774]],
-                [[9704, -17779], [9720, -17775]],
-                [[9716, -17779], [9720, -17759]],
-                [[9713, -17767], [9720, -17759]],
-                [[9716, -17767], [9720, -17735]],
-                [[9708, -17737], [9721, -17730]]
-            ],
             "lines": {
                 "Finland Public Ice Highway": {
                     "Line 1": ["", "Main line"]
-                },
-                "TNIH": {
-                    "Siberia Main": ["", "Main line"]
                 }
             }
         },
@@ -10119,7 +10106,7 @@
             "x": 50950,
             "z": 22392,
             "lines": {
-                "Ausrail": {
+                "PTA": {
                     "Inner Victoria": ["", "Main line"]
                 }
             }
@@ -10130,7 +10117,7 @@
             "x": 51680,
             "z": 22392,
             "lines": {
-                "Ausrail": {
+                "PTA": {
                     "Inner Victoria": ["", "Main line"]
                 }
             }
@@ -10141,7 +10128,7 @@
             "x": 52020,
             "z": 22187,
             "lines": {
-                "Ausrail": {
+                "PTA": {
                     "Inner Victoria": ["", "Main line"],
                     "South Coast": ["", "Main line"]
                 }
@@ -10153,7 +10140,7 @@
             "x": 53755,
             "z": 21374,
             "lines": {
-                "Ausrail": {
+                "PTA": {
                     "South Coast": ["", "Main line"],
                     "Waratah": ["", "Main line"],
                     "Central": ["", "Main line"]
@@ -10166,7 +10153,7 @@
             "x": 51909,
             "z": 21580,
             "lines": {
-                "Ausrail": {
+                "PTA": {
                     "Inner Victoria": ["", "Main line"]
                 }
             }
@@ -10177,7 +10164,7 @@
             "x": 53439,
             "z": 18891,
             "lines": {
-                "Ausrail": {
+                "PTA": {
                     "Regional NSW": ["", "Main line"]
                 }
             }
@@ -10188,7 +10175,7 @@
             "x": 53575,
             "z": 19257,
             "lines": {
-                "Ausrail": {
+                "PTA": {
                     "Regional NSW": ["", "Main line"]
                 }
             }
@@ -10199,7 +10186,7 @@
             "x": 53880,
             "z": 20551,
             "lines": {
-                "Ausrail": {
+                "PTA": {
                     "Regional NSW": ["", "Main line"],
                     "Waratah": ["", "Main line"]
                 }
@@ -10211,7 +10198,7 @@
             "x": 53465,
             "z": 21203,
             "lines": {
-                "Ausrail": {
+                "PTA": {
                     "South Coast": ["", "Main line"]
                 }
             }
@@ -10222,7 +10209,7 @@
             "x": 53416,
             "z": 21016,
             "lines": {
-                "Ausrail": {
+                "PTA": {
                     "Waratah": ["", "Main line"]
                 }
             }
@@ -10233,7 +10220,7 @@
             "x": 54134,
             "z": 20551,
             "lines": {
-                "Ausrail": {
+                "PTA": {
                     "Waratah": ["", "Main line"]
                 }
             }
@@ -10244,7 +10231,7 @@
             "x": 54334,
             "z": 20236,
             "lines": {
-                "Ausrail": {
+                "PTA": {
                     "Waratah": ["", "Main line"]
                 }
             }
@@ -10255,7 +10242,7 @@
             "x": 53996,
             "z": 20903,
             "lines": {
-                "Ausrail": {
+                "PTA": {
                     "Waratah": ["", "Main line"]
                 }
             }
@@ -10266,7 +10253,7 @@
             "x": 54788,
             "z": 17913,
             "lines": {
-                "Ausrail": {
+                "PTA": {
                     "Sunshine Coast": ["", "Main line"]
                 }
             }
@@ -10277,7 +10264,7 @@
             "x": 54788,
             "z": 18055,
             "lines": {
-                "Ausrail": {
+                "PTA": {
                     "Sunshine Coast": ["", "Main line"]
                 }
             }
@@ -10288,7 +10275,7 @@
             "x": 54134,
             "z": 20690,
             "lines": {
-                "Ausrail": {
+                "PTA": {
                     "Waratah": ["", "Main line"]
                 }
             }
@@ -10299,7 +10286,7 @@
             "x": 54985,
             "z": 18380,
             "lines": {
-                "Ausrail": {
+                "PTA": {
                     "Regional NSW End": ["", "Main line"]
                 }
             }
@@ -10310,7 +10297,7 @@
             "x": 55007,
             "z": 18488,
             "lines": {
-                "Ausrail": {
+                "PTA": {
                     "Regional NSW End": ["", "Main line"]
                 }
             }
@@ -10321,7 +10308,7 @@
             "x": 51428,
             "z": 22650,
             "lines": {
-            "Ausrail": {
+            "PTA": {
                     "Fairy Metro": ["", "Main line"]
                 }
             }
@@ -10332,7 +10319,7 @@
             "x": 52360,
             "z": 21417,
             "lines": {
-                "Ausrail": {
+                "PTA": {
                     "Wagga Metro": ["", "Main line"]
                 }
             }
@@ -10780,10 +10767,16 @@
         {
             "name": "Chicago: Parkway Gardens",
             "id": 896,
-            "x": -31698,
-            "z": -7948,
+            "x": -31663,
+            "z": -7780,
             "lines": {
-            }
+                "America": {
+                    "City of New Orleans":  ["", "Southbound Tube to Northbound Tube"]
+                }
+            },
+            "areas": [
+                [[-31669, -7781], [-31657, -7779]]
+            ]
         },
         {
             "name": "Old National Line — City of New Orleans JCT",
@@ -11143,116 +11136,7 @@
                 }
             }
         },
-        {
-            "name": "Anttila JCT",
-            "type": "jct",
-            "id": 925,
-            "x": 10471,
-            "z": -17741,
-            "lines": {
-                "Finland Public Ice Highway": {
-                    "Line 1": ["", "Main line to Anttila branch"]
-                }
-            }
-        },
-        {
-            "name": "Anttila",
-            "id": 926,
-            "x": 10471,
-            "z": -17840,
-            "lines": {
-                "Finland Public Ice Highway": {
-                    "Line 1": ["", "Anttila branch"]
-                }
-            }
-        },
-        {
-            "name": "Roazhon JCT",
-            "type": "jct",
-            "id": 927,
-            "x": 8950,
-            "z": -18998,
-            "lines": {
-                "Finland Public Ice Highway": {
-                    "Line 3": ["", "Main line to Roazhon branch"]
-                }
-            }
-        },
-        {
-            "name": "Roazhon",
-            "id": 928,
-            "x": 8629,
-            "z": -18998,
-            "lines": {
-                "Finland Public Ice Highway": {
-                    "Line 3": ["", "Roazhon branch"]
-                }
-            }
-        },
-        {
-            "name": "Kuopio Elevator",
-            "type": "elev-we",
-            "id": 929,
-            "x": 8950,
-            "z": -17918,
-            "y1": 90,
-            "y2": 57,
-            "areas": [
-                [[8948, -17920], [8955, -17916]]
-            ],
-            "lines": {
-                "Finland Public Ice Highway": {
-                    "Line 3": ["", "Main line"]
-                }
-            }
-        },
-        {
-            "name": "Kuorevesi Roundabout JCT",
-            "type": "jct",
-            "id": 930,
-            "x": 8813,
-            "z": -17567,
-            "areas": [
-                [[8807, -17572], [8819, -17562]]
-            ],
-            "lines": {
-                "Finland Public Ice Highway": {
-                    "Line 3": ["", "Main line"]
-                }
-            }
-        },
-        {
-            "name": "Kuorevesi Central",
-            "id": 931,
-            "x": 8775,
-            "z": -17567,
-            "areas": [
-                [[8752, -17570], [8800, -17552]],
-                [[8798, -17563], [8812, -17558]]
-            ],
-            "lines": {
-                "Finland Public Ice Highway": {
-                    "Line 3": ["", "Main line"]
-                }
-            }
-        },
-        {
-            "name": "Turku Elevator",
-            "type": "elev-ew",
-            "id": 932,
-            "x": 7933,
-            "z": -17129,
-            "y1": 57,
-            "y2": 58,
-            "areas": [
-                [[7931, -17136], [7935, -17123]]
-            ],
-            "lines": {
-                "Finland Public Ice Highway": {
-                    "Line 3": ["", "Main line"]
-                }
-            }
-        },
+        { "id": 925 }, { "id": 926 }, { "id": 927 }, { "id": 928 }, { "id": 929 }, { "id": 930 }, { "id": 931 }, { "id": 932 },
         {
             "name": "Girard / 69th St.",
             "id": 933,
@@ -11300,58 +11184,7 @@
                 }
             }
         },
-        {
-            "name": "Kuopio JCT",
-            "type": "jct",
-            "id": 937,
-            "x": 9976,
-            "z": -17741,
-            "lines": {
-                "Finland Public Ice Highway": {
-                    "Line 1": ["", "Main line to Kuopio branch"]
-                }
-            }
-        },
-        {
-            "name": "Kuopio Elevator",
-            "type": "elev-we",
-            "id": 938,
-            "x": 9976,
-            "z": -17775,
-            "y1": 54,
-            "y2": 56,
-            "areas": [
-                [[9974, -17776], [9978, -17757]]
-            ],
-            "lines": {
-                "Finland Public Ice Highway": {
-                    "Line 1": ["", "Kuopio branch"]
-                }
-            }
-        },
-        {
-            "name": "Kuopio South Emergency Exit",
-            "type": "semi4",
-            "id": 939,
-            "x": 9884,
-            "z": -17851,
-            "lines": {
-                "Finland Public Ice Highway": {
-                    "Line 1": ["", "Kuopio branch"]
-                }
-            }
-        },
-        {
-            "name": "Kuopio",
-            "id": 940,
-            "x": 9884,
-            "z": -18149,
-            "lines": {
-                "Finland Public Ice Highway": {
-                    "Line 1": ["", "Kuopio branch"]
-                }
-            }
-        },
+        { "id": 937 }, { "id": 938 }, { "id": 939 }, { "id": 940 },
         {
             "name": "Vine St.",
             "id": 941,
@@ -11374,122 +11207,7 @@
                 }
             }
         },
-        {
-            "name": "Turku JCT",
-            "type": "jct",
-            "id": 943,
-            "x": 7933,
-            "z": -16950,
-            "lines": {
-                "Finland Public Ice Highway": {
-                    "Line 3": ["", "Main line to Turku branch"]
-                }
-            }
-        },
-        {
-            "name": "Turku",
-            "id": 944,
-            "x": 7822,
-            "z": -16853,
-            "lines": {
-                "Finland Public Ice Highway": {
-                    "Line 3": ["", "Turku branch"]
-                }
-            }
-        },
-        {
-            "name": "Finlandia (FPIH)",
-            "id": 945,
-            "x": 7933,
-            "z": -16916,
-            "lines": {
-                "Finland Public Ice Highway": {
-                    "Line 3": ["", "Main line"]
-                }
-            }
-        },
-        {
-            "name": "Ekenas",
-            "id": 946,
-            "x": 8501,
-            "z": -16686,
-            "lines": {
-                "Finland Public Ice Highway": {
-                    "Line 3": ["", "Main line"]
-                }
-            }
-        },
-        {
-            "name": "Uusimaa (Metroasema)",
-            "id": 947,
-            "x": 8866,
-            "z": -16677,
-            "lines": {
-                "Finland Public Ice Highway": {
-                    "Line 3": ["", "Main line"]
-                }
-            }
-        },
-        {
-            "name": "Helsinki",
-            "id": 948,
-            "x": 8879,
-            "z": -16722,
-            "areas": [
-                [[8877, -16736], [8885, -16717]],
-                [[8883, -16724], [8897, -16719]],
-                [[8893, -16736], [8897, -16719]]
-            ],
-            "lines": {
-                "Finland Public Ice Highway": {
-                    "Line 3": ["", "Main line"]
-                }
-            }
-        },
-        {
-            "name": "Lahen Kingit",
-            "id": 949,
-            "x": 9197,
-            "z": -17023,
-            "lines": {
-                "Finland Public Ice Highway": {
-                    "Line 3": ["", "Main line"]
-                }
-            }
-        },
-        {
-            "name": "Viipuri",
-            "id": 950,
-            "x": 10188.5,
-            "z": -16968,
-            "lines": {
-                "Finland Public Ice Highway": {
-                    "Line 3": ["", "Main line"]
-                }
-            }
-        },
-        {
-            "name": "Dialtown",
-            "id": 951,
-            "x": -45254,
-            "z": -18776,
-            "lines": {
-                "Canarail": {
-                    "Dialtown-Lower Laberge": ["", ""]
-                }
-            }
-        },
-        {
-            "name": "Lower Laberge",
-            "id": 952,
-            "x": -44562,
-            "z": -18891,
-            "lines": {
-                "Canarail": {
-                    "Dialtown-Lower Laberge": ["", ""]
-                }
-            }
-        },
+        { "id": 943 }, { "id": 944 }, { "id": 945 }, { "id": 946 }, { "id": 947 }, { "id": 948 }, { "id": 949 }, { "id": 950 }, { "id": 951 }, { "id": 952 },
         {
             "name": "Market / 69th St.",
             "id": 953,
@@ -11548,47 +11266,7 @@
                 }
             }
         },
-        {
-            "name": "Wolfenstein JCT",
-            "type": "jct",
-            "id": 958,
-            "x": 21282,
-            "z": -17732,
-            "lines": {
-                "TNIH": {
-                    "Siberia Main": ["", "Main line to Simograd branch"]
-                }
-            }
-        },
-        {
-            "name": "Simograd",
-            "id": 959,
-            "x": 21282,
-            "z": -16402,
-            "lines": {
-                "TNIH": {
-                    "Siberia Main": ["", "Simograd branch"]
-                }
-            }
-        },
-        {
-            "name": "Sosnovo JCT",
-            "type": "jct",
-            "id": 960,
-            "x": 10600.5,
-            "z": -16852,
-            "lines": {
-                "Norwegian Ice Boat Highway System (Vy)": {
-                    "Finland-Russia": ["", "Main line"]
-                },
-                "TNIH": {
-                    "Lappeenranta": ["", "Main line"]
-                }
-            },
-            "areas": [
-                [[10596, -16853], [10605, -16847]]
-            ]
-        },
+        { "id": 958 }, { "id": 959 }, { "id": 960 },
         {
             "name": "Chestnut St.",
             "id": 961,
@@ -11622,92 +11300,7 @@
                 }
             }
         },
-        {
-            "name": "Sosnovo Mine-Saint Petersburg",
-            "id": 964,
-            "x": 10648,
-            "z": -16852,
-            "lines": {
-                "TNIH": {
-                    "Lappeenranta": ["", "Main line"]
-                }
-            }
-        },
-        {
-            "name": "Sortavala JCT",
-            "type": "jct",
-            "id": 965,
-            "x": 11045,
-            "z": -17732,
-            "lines": {
-                "TNIH": {
-                    "Siberia Main": ["", "Main line"],
-                    "Sortavala": ["", "Main line"]
-                }
-            }
-        },
-        {
-            "name": "Valaam JCT",
-            "type": "jct",
-            "id": 966,
-            "x": 11045,
-            "z": -17277,
-            "lines": {
-                "TNIH": {
-                    "Sortavala": ["", "Main line to Derevnya branch"]
-                }
-            }
-        },
-        {
-            "name": "Sortavala Mine",
-            "id": 967,
-            "x": 10719,
-            "z": -17277,
-            "lines": {
-                "TNIH": {
-                    "Sortavala": ["", "Main line"]
-                }
-            }
-        },
-        {
-            "name": "Veinan JCT",
-            "type": "jct",
-            "id": 968,
-            "x": 11624,
-            "z": -17732,
-            "lines": {
-                "TNIH": {
-                    "Siberia Main": ["", "Main line"]
-                },
-                "Intercontinental": {
-                    "Veinan-Kola": ["", "Main line"]
-                }
-            }
-        },
-        {
-            "name": "Segezha West JCT",
-            "type": "jct",
-            "id": 969,
-            "x": 11624,
-            "z": -18698,
-            "lines": {
-                "Intercontinental": {
-                    "Veinan-Kola": ["", "Main line to Segezha branch"]
-                }
-            }
-        },
-        {
-            "name": "Segezha JCT",
-            "type": "jct",
-            "id": 970,
-            "x": 12325,
-            "z": -18698,
-            "lines": {
-                "Intercontinental": {
-                    "Veinan-Kola": ["", "Segezha branch to Gospic branch"]
-                }
-            }
-        },
+        { "id": 964 }, { "id": 965 }, { "id": 966 }, { "id": 967 }, { "id": 968 }, { "id": 969 }, { "id": 970 },
         {
             "name": "Walnut St. / 69th",
             "id": 971,
@@ -11732,95 +11325,7 @@
                 }
             }
         },
-        {
-            "name": "Gospic",
-            "id": 973,
-            "x": 12325,
-            "z": -18128,
-            "areas": [
-                [[12323, -18130], [12332, -18122]]
-            ],
-            "lines": {
-                "Intercontinental": {
-                    "Veinan-Kola": ["", "Gospic branch"]
-                }
-            }
-        },
-        {
-            "name": "Segezha",
-            "id": 974,
-            "x": 12331,
-            "z": -18698,
-            "areas": [
-                [[12327, -18700], [12335, -18683]]
-            ],
-            "lines": {
-                "Intercontinental": {
-                    "Veinan-Kola": ["", "Segezha branch"]
-                }
-            }
-        },
-        {
-            "name": "Umka JCT",
-            "type": "jct",
-            "id": 975,
-            "x": 11624,
-            "z": -20271,
-            "lines": {
-                "Intercontinental": {
-                    "Veinan-Kola": ["", "Main line to Umka branch"]
-                }
-            }
-        },
-        {
-            "name": "Umka",
-            "id": 976,
-            "x": 13089,
-            "z": -20160,
-            "lines": {
-                "Intercontinental": {
-                    "Veinan-Kola": ["", "Umka branch"]
-                }
-            }
-        },
-        {
-            "name": "Monchegrsk JCT",
-            "type": "jct",
-            "id": 977,
-            "x": 11624,
-            "z": -20611,
-            "lines": {
-                "Intercontinental": {
-                    "Veinan-Kola": ["", "Main line to Monchegrsk branch"]
-                }
-            }
-        },
-        {
-            "name": "Monchegrsk",
-            "id": 978,
-            "x": 11453,
-            "z": -20611,
-            "lines": {
-                "Intercontinental": {
-                    "Veinan-Kola": ["", "Monchegrsk branch"]
-                }
-            }
-        },
-        {
-            "name": "Havukruunu",
-            "type": "jct",
-            "id": 979,
-            "x": 11624,
-            "z": -21193,
-            "areas": [
-                [[11445, -20625], [11458, -20604]]
-            ],
-            "lines": {
-                "Intercontinental": {
-                    "Veinan-Kola": ["", "Main line"]
-                }
-            }
-        },
+        { "id": 973 }, { "id": 974 }, { "id": 975 }, { "id": 976 }, { "id": 977 }, { "id": 978 }, { "id": 979 },
         {
             "name": "Locust St. / 69th",
             "id": 980,
@@ -11856,7 +11361,68 @@
                     "T": ["", ""]
                 }
             }
-        }
+        },
+        {
+            "name": "Woke Bay",
+            "id": 990,
+            "x": -29463,
+            "z": -9617,
+            "lines": {
+                "America": {
+                    "Wolverine": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Turtle Beach JCT",
+            "id": 991,
+            "type": "jct",
+            "x": -25092,
+            "z": -7221,
+            "lines": {
+                "America": {
+                    "Atlantic": ["", "Eastbound Tube to Westbound Tube"],
+                    "Cape Codder": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Acadian Line JCT",
+            "id": 992,
+            "type": "jct",
+            "x": -25092,
+            "z": -7576,
+            "lines": {
+                "America": {
+                    "Cape Codder": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Turtle Beach, America",
+            "id": 993,
+            "x": -25092,
+            "z": -7863,
+            "lines": {
+                "America": {
+                    "Cape Codder": ["", ""]
+                },
+				"Turtleundercover": {
+					"Purple Line": ["", ""]
+				}
+            }
+        },
+        {
+            "name": "Braga, Portugal",
+            "id": 994,
+            "x": -3171,
+            "z": -7863,
+            "lines": {
+				"Turtleundercover": {
+					"Purple Line": ["", ""]
+				}
+            }
+        },
     ],
     "lines": {
         "TNIH": {
@@ -11925,6 +11491,10 @@
                             [-2594, -17794],
                             [-2495, -17794],
                             [-2495, -17732],
+                            [9662, -17732],
+                            [9662, -17778],
+                            [9761, -17778],
+                            [9761, -17732],
                             [21326, -17732],
                             [21326, -17777],
                             [21376, -17777],
@@ -11935,7 +11505,7 @@
                             [52960.5, -23834.5],
                             [50681, -23834.5]
                         ],
-                        "stations": [816, 875, [878, "Iceland branch"], 753, [493, "Poice branch"], 384, 559, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"], 578, 501, 500, 580, 965, 968, 503, [958, "Simograd branch"], 504, [505, "Poikovskii branch"], 406, [382, "Campfine branch"], 508, [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, 213, 90, 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], 7, 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 375, 340],
+                        "stations": [816, 875, [878, "Iceland branch"], 753, [493, "Poice branch"], 384, 559, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"], [501, "Lappeenranta branch"], 500, 580, 503, 504, [505, "Poikovskii branch"], 406, 508, [382, "Campfine branch"], [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, 213, 90, 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], 7, 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 375, 340],
                         "concurrencies": {
                             "TNIH.Siberia Main": [
                                 [41614, -17732],
@@ -11972,12 +11542,12 @@
                         ],
                         "stations": [[497, "Main line"], 498, 499]
                     },
-                    "Simograd branch": {
+                    "Lappeenranta branch": {
                         "vertices": [
-                            [21282, -17732],
-                            [21282, -16402]
+                            [10181, -17732],
+                            [10181, -17154]
                         ],
-                        "stations": [[958, "Main line"], 959]
+                        "stations": [[501, "Main line"], 502]
                     },
                     "Poikovskii branch": {
                         "vertices": [
@@ -12867,56 +12437,6 @@
                         "stations": [395, 396]
                     }
                 }
-            },
-            "Lappeenranta": {
-                "prefix": "",
-                "code": "LP",
-                "color": "B8FF4B",
-                "y": 10,
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [10393, -16866],
-                            [10390, -16869],
-                            [10279, -16869],
-                            [10273, -16866],
-                            [10265, -16862],
-                            [10181, -16862],
-                            [10181, -17732],
-                            [10181, -16862],
-                            [10265, -16862],
-                            [10273, -16866],
-                            [10393, -16866],
-                            [10407, -16852],
-                            [10648, -16852]
-                        ],
-                        "stations": [501, 502, 960, 964]
-                    }
-                }
-            },
-            "Sortavala": {
-                "prefix": "",
-                "code": "SV",
-                "color": "DCC218",
-                "y": 10,
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [11045, -17732],
-                            [11045, -17277],
-                            [10719, -17277],
-                            [10719, -16860]
-                        ],
-                        "stations": [965, [966, "Derevnya branch"], 967]
-                    },
-                    "Derevnya branch": {
-                        "vertices": [
-                            [11045, -17277],
-                            [11327, -17277]
-                        ],
-                        "stations": [[966, "Main line"]]
-                    }
-                }
             }
         },
         "Florida": {
@@ -13079,7 +12599,7 @@
                 }
             }
         },
-        "Ausrail": {
+        "PTA": {
             "Westralia": {
                 "prefix": "",
                 "code": "WSA",
@@ -13803,22 +13323,6 @@
                         "stations": [[612, "Main line"], 613]
                     }
                 }
-            },
-            "Dialtown-Lower Laberge": {
-                "prefix": "",
-                "code": "D-LL",
-                "color": "FFCE00",
-                "y": 9,
-                "branches": {
-                    "": {
-                        "vertices": [
-                            [-44562, -18891],
-                            [-45254, -18891],
-                            [-45254, -18776]
-                        ],
-                        "stations": [951, 952]
-                    }
-                }
             }
         },
         "LR Railways": {
@@ -14160,14 +13664,16 @@
                     "Westbound Tube": {
                         "vertices": [
                             [-31680, -7222],
-                            [-25856, -7222]
+                            [-24770, -7222]
                         ],
                         "stations": [[898, "Eastbound Tube"], [899, "Eastbound Tube"], [900, "Eastbound Tube"], 901, [902, "Eastbound Tube"], 369, [370, "Eastbound Tube"], 371, 372, 373, [374, "Eastbound Tube"]]
                     },
                     "Eastbound Tube": {
                         "vertices": [
                             [-31680, -7210],
-                            [-25856, -7210]
+                            [-25857, -7210],
+							[-25857, -7220],
+							[-24770, -7220]
                         ],
                         "stations": [[898, "Westbound Tube"], [899, "Westbound Tube"], [900, "Westbound Tube"], 901, [902, "Westbound Tube"], 369, [370, "Westbound Tube"], 377, 378, 379, [374, "Westbound Tube"], 381]
                     }
@@ -14201,14 +13707,14 @@
                             [-31669, -8132],
                             [-31669, -7210]
                         ],
-                        "stations": [894, 895, [897, "Northbound Tube"], [898, "Northbound Tube"]]
+                        "stations": [894, 895, 896, [897, "Northbound Tube"], [898, "Northbound Tube"]]
                     },
                     "Northbound Tube": {
                         "vertices": [
                             [-31657, -8132],
                             [-31657, -7210]
                         ],
-                        "stations": [894, 895, [897, "Southbound Tube"], [898, "Southbound Tube"]]
+                        "stations": [894, 895, 896, [897, "Southbound Tube"], [898, "Southbound Tube"]]
                     }
                 }
             },
@@ -14237,6 +13743,22 @@
                     }
                 }
             },
+            "Cape Codder": {
+                "prefix": "",
+                "code": "CC",
+                "color": "40537e",
+                "y": 10,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-25092, -7872],
+                            [-25092, -7220]
+                        ],
+                        "stations": [991, 992, 993]
+                    }
+
+                }
+            },
             "Wolverine": {
                 "prefix": "",
                 "code": "WV",
@@ -14245,10 +13767,11 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [-29720, -8480],
+							[-29453, -9617],
+                            [-29720, -9617],
                             [-29720 , -7210]
                         ],
-                        "stations": [919, [918, "Flint branch"], 917, [916, "Chicago branch"], 915, 900]
+                        "stations": [990, 919, [918, "Flint branch"], 917, [916, "Chicago branch"], 915, 900]
                     },
                     "Chicago branch": {
                         "vertices": [
@@ -14268,6 +13791,24 @@
                 }
             }
         },
+		"Turtleundercover": {
+			"Purple Line": {
+				"prefix": "",
+				"code": "",
+				"color": "6c3baa",
+				"y": 63,
+				"branches": {
+					"": {
+						"vertices": [
+							[-25092, -7863],
+							[-3171, -7863]
+						],
+						"stations": [993, 994]
+					}
+				}
+				
+			}
+		},
         "SEPTA": {
             "L": {
                 "prefix": "",
@@ -14480,7 +14021,7 @@
                 "prefix": "",
                 "code": "L1",
                 "color": "00B8CD",
-                "y": "69, 53, 58, 71, 56 (Kuopio branch)",
+                "y": "69, 53, 58, 71",
                 "branches": {
                     "Main line": {
                         "vertices": [
@@ -14491,23 +14032,7 @@
                             [9764, -17741],
                             [10751, -17741]
                         ],
-                        "stations": [572, 573, 574, 575, 576, 577, 578, 579, [937, "Kuopio branch"], [925, "Anttila branch"], 580]
-                    },
-                    "Kuopio branch": {
-                        "vertices": [
-                            [9976, -17741],
-                            [9976, -17781],
-                            [9884, -17781],
-                            [9884, -18149]
-                        ],
-                        "stations": [[937, "Main line"], 938, 939, 940]
-                    },
-                    "Anttila branch": {
-                        "vertices": [
-                            [10471, -17741],
-                            [10471, -17840]
-                        ],
-                        "stations": [[925, "Main line"], 926]
+                        "stations": [572, 573, 574, 575, 576, 577, 578, 579, 580]
                     }
                 }
             },
@@ -14528,55 +14053,6 @@
                             [9555, -20783]
                         ],
                         "stations": [572, 581, 582, 750]
-                    }
-                }
-            },
-            "Line 3": {
-                "prefix": "",
-                "code": "L3",
-                "color": "B51C31",
-                "y": "90, 57, 58",
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [9150, -19481],
-                            [8950, -19481],
-                            [8950, -17567],
-                            [8816, -17567],
-                            [8816, -17564.5],
-                            [8810, -17564.5],
-                            [8810, -17569.5],
-                            [8816, -17569.5],
-                            [8816, -17564.5],
-                            [8810, -17564.5],
-                            [8810, -17567],
-                            [7933, -17567],
-                            [7933, -16916],
-                            [8501, -16916],
-                            [8501, -16677],
-                            [8879, -16677],
-                            [8879, -16772],
-                            [9122, -16772],
-                            [9122, -17023],
-                            [10188.5, -17023],
-                            [10188.5, -16968]
-                        ],
-                        "stations": [572, [927, "Roazhon branch"], 929, 930, 931, 932, [943, "Turku branch"], 945, 946, 947, 948, 949, 950]
-                    },
-                    "Roazhon branch": {
-                        "vertices": [
-                            [8950, -18998],
-                            [8629, -18998]
-                        ],
-                        "stations": [[927, "Main line"], 928]
-                    },
-                    "Turku branch": {
-                        "vertices": [
-                            [7933, -16950],
-                            [7822, -16950],
-                            [7822, -16853]
-                        ],
-                        "stations": [[943, "Main line"], 944]
                     }
                 }
             }
@@ -15568,55 +15044,6 @@
                             [-16000, -16972]
                         ],
                         "stations": [875, 876, 395]
-                    }
-                }
-            },
-            "Veinan-Kola": {
-                "prefix": "",
-                "code": "KV",
-                "color": "FF00AA",
-                "y": 10,
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [11624, -17732],
-                            [11624, -21883]
-                        ],
-                        "stations": [968, [969, "Segezha branch"], [975, "Umka branch"], [977, "Monchegrsk branch"], 979]
-                    },
-                    "Segezha branch": {
-                        "vertices": [
-                            [11624, -18698],
-                            [12338, -18698],
-                            [12338, -18693],
-                            [12569, -18693],
-                            [12569, -18682],
-                            [12570, -18682]
-                        ],
-                        "stations": [[969, "Main line"], [970, "Gospic branch"], 974]
-                    },
-                    "Gospic branch": {
-                        "vertices": [
-                            [12325, -18698],
-                            [12325, -18128],
-                            [12330, -18128]
-                        ],
-                        "stations": [[970, "Segezha branch"], 973]
-                    },
-                    "Umka branch": {
-                        "vertices": [
-                            [11624, -20271],
-                            [13089, -20271],
-                            [13089, -20160]
-                        ],
-                        "stations": [[975, "Main line"], 976]
-                    },
-                    "Monchegrsk branch": {
-                        "vertices": [
-                            [11624, -20611],
-                            [11453, -20611]
-                        ],
-                        "stations": [[977, "Main line"], 978]
                     }
                 }
             }
@@ -16907,7 +16334,7 @@
                             [10602, -16780],
                             [10874, -16780]
                         ],
-                        "stations": [868, 869, 870, 960, 871]
+                        "stations": [868, 869, 870, 871]
                     }
                 }
             }
