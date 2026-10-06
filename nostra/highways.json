@@ -1286,22 +1286,25 @@
         {
             "name": "Sisian",
             "id": 110,
-            "x": 15809.5,
+            "x": 15801.5,
             "z": -7469.5,
             "lines": {
                 "Armenia": {
                     "M-3": ["", ""]
                 }
-            }
+            },
+            "areas": [
+                [[15801, -7469], [15809, -7470]]
+            ]
         },
         {
-            "name": "Gyumri",
+            "name": "Tbilisi Downtown",
             "id": 111,
-            "x": 15686.5,
-            "z": -7356.5,
+            "x": 14982.5,
+            "z": -7900.5,
             "lines": {
                 "Armenia": {
-                    "M-1": ["", ""]
+                    "M-1": ["", "North branch"]
                 }
             }
         },
@@ -1312,7 +1315,7 @@
             "z": -7224,
             "lines": {
                 "Armenia": {
-                    "M-1": ["", ""]
+                    "M-1": ["", "South branch"]
                 }
             }
         },
@@ -1332,7 +1335,7 @@
             "z": -7016.5,
             "lines": {
                 "Armenia": {
-                    "M-1": ["", ""],
+                    "M-1": ["", "South branch"],
                     "M-2": ["", ""]
                 }
             }
@@ -1355,7 +1358,7 @@
             "z": -7016.5,
             "lines": {
                 "Armenia": {
-                    "M-1": ["", ""]
+                    "M-1": ["", "South branch"]
                 }
             }
         },
@@ -4328,7 +4331,7 @@
             ]
         },
         {
-            "name": "1st Atlantic ramp (WB side)",
+            "name": "1st Atlantic ramp (EB side)",
             "type": "elev-ew",
             "id": 371,
             "x": -27315,
@@ -4340,7 +4343,7 @@
             }
         },
         {
-            "name": "2nd Atlantic ramp (WB side)",
+            "name": "2nd Atlantic ramp (EB side)",
             "type": "elev-ew",
             "id": 372,
             "x": -27291,
@@ -4352,7 +4355,7 @@
             }
         },
         {
-            "name": "3rd Atlantic ramp (WB side)",
+            "name": "3rd Atlantic ramp (EB side)",
             "type": "elev-ew",
             "id": 373,
             "x": -27267,
@@ -4364,22 +4367,47 @@
             }
         },
         {
-            "name": "Philadelphia (30th Street Station)",
+            "name": "Philadelphia (30th Street)",
             "id": 374,
             "x": -27133,
             "z": -7216,
             "lines": {
                 "America": {
                     "Atlantic": ["", "Westbound Tube to Eastbound Tube"]
-                },
+                }
             },
             "areas": [
-                [[-27212, -7209], [-27090, -7223]],
-				[[-27108 , -7202]], [[-27139 , -7230]]
+                [[-27132, -7222], [-27134, -7210]],
+                [[-27080, -7215], [-27134, -7217]],
+                [[-27082, -7207], [-27080, -7217]]
             ]
         },
         {
-            "name": "1st Atlantic ramp (EB side)",
+            "name": "Baylon JCT",
+            "type": "jct",
+            "id": 375,
+            "x": 51896,
+            "z": -23834.5,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"],
+                    "Heartnorth": ["", "Future City branch"]
+                }
+            }
+        },
+        {
+            "name": "Future City",
+            "id": 376,
+            "x": 51896,
+            "z": -23175,
+            "lines": {
+                "TNIH": {
+                    "Heartnorth": ["", "Future City branch"]
+                }
+            }
+        },
+        {
+            "name": "1st Atlantic ramp (WB side)",
             "type": "elev-ew",
             "id": 377,
             "x": -27315,
@@ -4391,7 +4419,7 @@
             }
         },
         {
-            "name": "2nd Atlantic ramp (EB side)",
+            "name": "2nd Atlantic ramp (WB side)",
             "type": "elev-ew",
             "id": 378,
             "x": -27291,
@@ -4403,7 +4431,7 @@
             }
         },
         {
-            "name": "3rd Atlantic ramp (EB side)",
+            "name": "3rd Atlantic ramp (WB side)",
             "type": "elev-ew",
             "id": 379,
             "x": -27267,
@@ -4415,7 +4443,19 @@
             }
         },
         {
-            "name": "4th Atlantic ramp (EB side)",
+            "name": "Future City JCT",
+            "type": "jct",
+            "id": 380,
+            "x": 51646,
+            "z": -23181,
+            "lines": {
+                "TNIH": {
+                    "Heartnorth": ["", "Northern section to Future City branch"]
+                }
+            }
+        },
+        {
+            "name": "??? Elevator",
             "type": "elev-we",
             "id": 381,
             "x": -26675,
@@ -4423,6 +4463,40 @@
             "lines": {
                 "America": {
                     "Atlantic": ["", "Eastbound Tube"]
+                }
+            }
+        },
+        {
+            "name": "Uchami JCT",
+            "type": "jct",
+            "id": 382,
+            "x": 34050,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to Campfine branch"]
+                }
+            }
+        },
+        {
+            "name": "Campfine",
+            "id": 383,
+            "x": 34050,
+            "z": -18860,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Campfine branch"]
+                }
+            }
+        },
+        {
+            "name": "Nordhavean",
+            "id": 384,
+            "x": 3781,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
                 }
             }
         },
@@ -4742,10 +4816,13 @@
             "lines": {
                 "Armenia": {
                     "H-1": ["", ""],
-                    "M-1": ["", ""],
+                    "M-1": ["", "South branch"],
                     "M-4": ["", ""]
                 }
-            }
+            },
+            "areas": [
+                [[15670, -7240], [15678, -7247]]
+            ]
         },
         {
             "name": "Etchmiadzin",
@@ -4767,7 +4844,7 @@
             "lines": {
                 "Armenia": {
                     "H-1": ["", ""],
-                    "M-1": ["", ""]
+                    "M-1": ["", "South branch"]
                 }
             }
         },
@@ -4778,7 +4855,7 @@
             "z": -7111.5,
             "lines": {
                 "Armenia": {
-                    "M-1": ["", ""]
+                    "M-1": ["", "South branch"]
                 }
             }
         },
@@ -5628,13 +5705,13 @@
             }
         },
         {
-            "name": "Ashtarak",
+            "name": "Tbilisi border",
             "id": 482,
-            "x": 15691.5,
-            "z": -7556.5,
+            "x": 15115.5,
+            "z": -7646.5,
             "lines": {
                 "Armenia": {
-                    "M-1": ["", ""]
+                    "M-1": ["", "North branch"]
                 }
             }
         },
@@ -5646,7 +5723,7 @@
             "z": -7426.5,
             "lines": {
                 "Armenia": {
-                    "M-1": ["", ""],
+                    "M-1": ["", "North branch"],
                     "M-3": ["", ""]
                 }
             }
@@ -5662,7 +5739,7 @@
             ],
             "lines": {
                 "Armenia": {
-                    "M-1": ["", ""],
+                    "M-1": ["", "South branch"],
                     "H-2": ["", ""]
                 }
             }
@@ -5678,7 +5755,7 @@
             ],
             "lines": {
                 "Armenia": {
-                    "M-1": ["", ""],
+                    "M-1": ["", "South branch"],
                     "M-3": ["", ""]
                 }
             }
@@ -5752,7 +5829,7 @@
             "z": -6802.5,
             "lines": {
                 "Armenia": {
-                    "M-1": ["", ""]
+                    "M-1": ["", "South branch"]
                 }
             }
         },
@@ -5763,7 +5840,7 @@
             "z": -6696.5,
             "lines": {
                 "Armenia": {
-                    "M-1": ["", ""]
+                    "M-1": ["", "South branch"]
                 }
             }
         },
@@ -6894,7 +6971,8 @@
             ],
             "lines": {
                 "Sweden": {
-                    "Red": ["", "Main line"]
+                    "Red": ["", "Main line"],
+                    "North": ["", "Main line"]
                 }
             }
         },
@@ -10689,10 +10767,16 @@
         {
             "name": "Chicago: Parkway Gardens",
             "id": 896,
-            "x": -31698,
-            "z": -7948,
+            "x": -31663,
+            "z": -7780,
             "lines": {
-            }
+                "America": {
+                    "City of New Orleans":  ["", "Southbound Tube to Northbound Tube"]
+                }
+            },
+            "areas": [
+                [[-31669, -7781], [-31657, -7779]]
+            ]
         },
         {
             "name": "Old National Line — City of New Orleans JCT",
@@ -10937,7 +11021,7 @@
             }
         },
         {
-            "name": "Wolverine and Capitol Limited JCT",
+            "name": "North-West Columbus JCT",
             "id": 915,
             "type": "jct",
             "x": -29720,
@@ -11007,7 +11091,7 @@
             }
         },
         {
-            "name": "JCT",
+            "name": "Kendallville JCT",
             "id": 921,
             "type": "jct",
             "x": -30202,
@@ -11019,6 +11103,40 @@
                 }
             }
         },
+        {
+            "name": "Katrineholm",
+            "id": 922,
+            "x": 5474.5,
+            "z": -15939,
+            "lines": {
+                "Sweden": {
+                    "North": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mora",
+            "id": 923,
+            "x": 5501,
+            "z": -16857.5,
+            "lines": {
+                "Sweden": {
+                    "North": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Tamil Nadu",
+            "id": 924,
+            "x": 6117.5,
+            "z": -16802,
+            "lines": {
+                "Sweden": {
+                    "North": ["", "Main line"]
+                }
+            }
+        },
+        { "id": 925 }, { "id": 926 }, { "id": 927 }, { "id": 928 }, { "id": 929 }, { "id": 930 }, { "id": 931 }, { "id": 932 },
         {
             "name": "Girard / 69th St.",
             "id": 933,
@@ -11066,7 +11184,7 @@
                 }
             }
         },
-		
+        { "id": 937 }, { "id": 938 }, { "id": 939 }, { "id": 940 },
         {
             "name": "Vine St.",
             "id": 941,
@@ -11089,7 +11207,7 @@
                 }
             }
         },
-		
+        { "id": 943 }, { "id": 944 }, { "id": 945 }, { "id": 946 }, { "id": 947 }, { "id": 948 }, { "id": 949 }, { "id": 950 }, { "id": 951 }, { "id": 952 },
         {
             "name": "Market / 69th St.",
             "id": 953,
@@ -11148,7 +11266,7 @@
                 }
             }
         },
-
+        { "id": 958 }, { "id": 959 }, { "id": 960 },
         {
             "name": "Chestnut St.",
             "id": 961,
@@ -11181,7 +11299,8 @@
                     "B": ["", ""]
                 }
             }
-        },		
+        },
+        { "id": 964 }, { "id": 965 }, { "id": 966 }, { "id": 967 }, { "id": 968 }, { "id": 969 }, { "id": 970 },
         {
             "name": "Walnut St. / 69th",
             "id": 971,
@@ -11206,7 +11325,7 @@
                 }
             }
         },
-		
+        { "id": 973 }, { "id": 974 }, { "id": 975 }, { "id": 976 }, { "id": 977 }, { "id": 978 }, { "id": 979 },
         {
             "name": "Locust St. / 69th",
             "id": 980,
@@ -11230,6 +11349,7 @@
                 }
             }
         },
+        { "id": 982 }, { "id": 983 }, { "id": 984 }, { "id": 985 }, { "id": 986 }, { "id": 987 }, { "id": 988 },
         {
             "name": "Delaware Memorial Bridge",
             "id": 989,
@@ -11241,7 +11361,68 @@
                     "T": ["", ""]
                 }
             }
-        }
+        },
+        {
+            "name": "Woke Bay",
+            "id": 990,
+            "x": -29463,
+            "z": -9617,
+            "lines": {
+                "America": {
+                    "Wolverine": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Turtle Beach JCT",
+            "id": 991,
+            "type": "jct",
+            "x": -25092,
+            "z": -7221,
+            "lines": {
+                "America": {
+                    "Atlantic": ["", "Eastbound Tube to Westbound Tube"],
+                    "Cape Codder": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Acadian Line JCT",
+            "id": 992,
+            "type": "jct",
+            "x": -25092,
+            "z": -7576,
+            "lines": {
+                "America": {
+                    "Cape Codder": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Turtle Beach, America",
+            "id": 993,
+            "x": -25092,
+            "z": -7863,
+            "lines": {
+                "America": {
+                    "Cape Codder": ["", ""]
+                },
+				"Turtleundercover": {
+					"Purple Line": ["", ""]
+				}
+            }
+        },
+        {
+            "name": "Braga, Portugal",
+            "id": 994,
+            "x": -3171,
+            "z": -7863,
+            "lines": {
+				"Turtleundercover": {
+					"Purple Line": ["", ""]
+				}
+            }
+        },
     ],
     "lines": {
         "TNIH": {
@@ -11324,7 +11505,7 @@
                             [52960.5, -23834.5],
                             [50681, -23834.5]
                         ],
-                        "stations": [816, 875, [878, "Iceland branch"], 753, [493, "Poice branch"], 559, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"], [501, "Lappeenranta branch"], 500, 580, 503, 504, [505, "Poikovskii branch"], 406, 508, [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, 213, 90, 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], 7, 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 340],
+                        "stations": [816, 875, [878, "Iceland branch"], 753, [493, "Poice branch"], 384, 559, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"], [501, "Lappeenranta branch"], 500, 580, 503, 504, [505, "Poikovskii branch"], 406, 508, [382, "Campfine branch"], [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, 213, 90, 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], 7, 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 375, 340],
                         "concurrencies": {
                             "TNIH.Siberia Main": [
                                 [41614, -17732],
@@ -11375,6 +11556,13 @@
                             [25809, -17213]
                         ],
                         "stations": [[505, "Main line"], 506, 507]
+                    },
+                    "Campfine branch": {
+                        "vertices": [
+                            [34050, -17732],
+                            [34050, -18942]
+                        ],
+                        "stations": [[382, "Main line"], 383]
                     },
                     "Armas Y Libertad branch": {
                         "vertices": [
@@ -12073,7 +12261,7 @@
                             [51646, -23834.5],
                             [51646, -22777]
                         ],
-                        "stations": [340, 341, 342]
+                        "stations": [340, [380, "Future City branch"], 341, 342]
                     },
                     "Southern section": {
                         "vertices": [
@@ -12081,6 +12269,15 @@
                             [53220, -21954]
                         ],
                         "stations": [215, [216, "Sanctum Logorum branch"], 46, 47]
+                    },
+                    "Future City branch": {
+                        "vertices": [
+                            [51896, -23834.5],
+                            [51896, -23175],
+                            [51896, -23181],
+                            [51646, -23181]
+                        ],
+                        "stations": [375, 376, [380, "Main line"]]
                     },
                     "Sanctum Logorum branch": {
                         "vertices": [
@@ -12715,16 +12912,29 @@
                 "color": "009dff",
                 "y": 100,
                 "branches": {
-                    "": {
+                    "North branch": {
                         "vertices": [
-                            [15626.5, -7554],
+                            [13206.5, -7900.5],
+                            [14982.5, -7900.5],
+                            [14982.5, -7849.5],
+                            [15037.5, -7849.5],
+                            [15037.5, -7821.5],
+                            [15115.5, -7821.5],
+                            [15115.5, -7646.5],
+                            [15362.5, -7646.5],
+                            [15362.5, -7594.5],
+                            [15482.5, -7594.5],
+                            [15482.5, -7554.5],
+                            [15626.5, -7554.5],
                             [15626.5, -7469.5],
                             [15649.5, -7469.5],
-                            [15649.5, -7296.5],
-                            [15662.5, -7296.5],
-                            [15662.5, -7256.5],
-                            [15674.5, -7256.5],
-                            [15674.5, -7246.5],
+                            [15649.5, -7426.5, "Shirak part of M-1 is closed"]
+                        ],
+                        "stations": [111, 482, 483]
+                    },
+                    "South branch": {
+                        "vertices": [
+                            [15674.5, -7246.5, ""],
                             [15677.5, -7246.5],
                             [15677.5, -7243.5],
                             [15862.5, -7243.5],
@@ -12739,9 +12949,25 @@
                             [16392.5, -6728.5],
                             [16415.5, -6728.5],
                             [16415.5, -6696.5],
-                            [16512, -6696.5]
+                            [16511.5, -6696.5],
+                            [16511.5, -6697.5],
+                            [16604.5, -6697.5],
+                            [16604.5, -6708.5],
+                            [16697.5, -6708.5],
+                            [16697.5, -6765.5],
+                            [16765.5, -6765.5],
+                            [16765.5, -6780.5],
+                            [16779.5, -6780.5],
+                            [16779.5, -6784.5],
+                            [16789.5, -6784.5],
+                            [16789.5, -6797.5],
+                            [16869.5, -6797.5],
+                            [16869.5, -6890.5],
+                            [16947.5, -6890.5],
+                            [16947.5, -7061.5],
+                            [17037.5, -7061.5]
                         ],
-                        "stations": [482, 483, 111, 412, 414, 484, 112, 485, 415, 114, 116, 491, 492]
+                        "stations": [412, 414, 484, 112, 485, 415, 114, 116, 491, 492]
                     }
                 }
             },
@@ -12805,12 +13031,7 @@
                 "branches": {
                     "": {
                         "vertices": [
-                            [15674.5, -7246.5],
-                            [15670.5, -7246.5],
-                            [15670.5, -7243.5],
-                            [15580.5, -7243.5],
-                            [15580.5, -7188.5],
-                            [15394.5, -7188.5]
+                            [15674.5, -7246.5]
                         ],
                         "stations": [412]
                     }
@@ -12834,6 +13055,14 @@
                             [15738.5, -7243.5]
                         ],
                         "stations": [412, 413, 414]
+                    },
+                    " ": {
+                        "vertices": [
+                            [15673.5, -7240.5, "IGNORE THIS BRANCH"],
+                            [15677.5, -7240.5],
+                            [15677.5, -7243.5]
+                        ],
+                        "stations": []
                     }
                 }
             },
@@ -13435,14 +13664,16 @@
                     "Westbound Tube": {
                         "vertices": [
                             [-31680, -7222],
-                            [-25856, -7222]
+                            [-24770, -7222]
                         ],
                         "stations": [[898, "Eastbound Tube"], [899, "Eastbound Tube"], [900, "Eastbound Tube"], 901, [902, "Eastbound Tube"], 369, [370, "Eastbound Tube"], 371, 372, 373, [374, "Eastbound Tube"]]
                     },
                     "Eastbound Tube": {
                         "vertices": [
                             [-31680, -7210],
-                            [-25856, -7210]
+                            [-25857, -7210],
+							[-25857, -7220],
+							[-24770, -7220]
                         ],
                         "stations": [[898, "Westbound Tube"], [899, "Westbound Tube"], [900, "Westbound Tube"], 901, [902, "Westbound Tube"], 369, [370, "Westbound Tube"], 377, 378, 379, [374, "Westbound Tube"], 381]
                     }
@@ -13476,14 +13707,14 @@
                             [-31669, -8132],
                             [-31669, -7210]
                         ],
-                        "stations": [894, 895, [897, "Northbound Tube"], [898, "Northbound Tube"]]
+                        "stations": [894, 895, 896, [897, "Northbound Tube"], [898, "Northbound Tube"]]
                     },
                     "Northbound Tube": {
                         "vertices": [
                             [-31657, -8132],
                             [-31657, -7210]
                         ],
-                        "stations": [894, 895, [897, "Southbound Tube"], [898, "Southbound Tube"]]
+                        "stations": [894, 895, 896, [897, "Southbound Tube"], [898, "Southbound Tube"]]
                     }
                 }
             },
@@ -13501,7 +13732,7 @@
                             [-30202, -7739],
                             [-31391, -7739]
                         ],
-                        "stations": [388, 387, 386, [904, "Cincinnati branch"], 385, 370]
+                        "stations": [388, 387, 921, 386, [904, "Cincinnati branch"], 915, 385, 370]
                     },
                     "Cincinnati branch": {
                         "vertices": [
@@ -13512,18 +13743,35 @@
                     }
                 }
             },
+            "Cape Codder": {
+                "prefix": "",
+                "code": "CC",
+                "color": "40537e",
+                "y": 10,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-25092, -7872],
+                            [-25092, -7220]
+                        ],
+                        "stations": [991, 992, 993]
+                    }
+
+                }
+            },
             "Wolverine": {
                 "prefix": "",
                 "code": "WV",
-                "color": "00537e",
+                "color": "40537e",
                 "y": 8,
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [-29720, -8480],
+							[-29453, -9617],
+                            [-29720, -9617],
                             [-29720 , -7210]
                         ],
-                        "stations": [919, [918, "Flint branch"], 917, [916, "Chicago branch"], 915, 900]
+                        "stations": [990, 919, [918, "Flint branch"], 917, [916, "Chicago branch"], 915, 900]
                     },
                     "Chicago branch": {
                         "vertices": [
@@ -13543,10 +13791,28 @@
                 }
             }
         },
+		"Turtleundercover": {
+			"Purple Line": {
+				"prefix": "",
+				"code": "",
+				"color": "6c3baa",
+				"y": 63,
+				"branches": {
+					"": {
+						"vertices": [
+							[-25092, -7863],
+							[-3171, -7863]
+						],
+						"stations": [993, 994]
+					}
+				}
+				
+			}
+		},
         "SEPTA": {
             "L": {
                 "prefix": "",
-                "code": "",
+                "code": "L",
                 "color": "0099d6",
                 "y": 60,
                 "branches": {
@@ -13561,7 +13827,7 @@
             },
             "B": {
                 "prefix": "",
-                "code": "",
+                "code": "B",
                 "color": "f26929",
                 "y": 60,
                 "branches": {
@@ -13576,7 +13842,7 @@
             },
             "T": {
                 "prefix": "",
-                "code": "",
+                "code": "T",
                 "color": "61A744",
                 "y": 60,
                 "branches": {
@@ -13591,7 +13857,7 @@
             },
             "G": {
                 "prefix": "",
-                "code": "",
+                "code": "G",
                 "color": "FDD800",
                 "y": 60,
                 "branches": {
@@ -13606,7 +13872,7 @@
             },
             "D": {
                 "prefix": "",
-                "code": "",
+                "code": "D",
                 "color": "E5417A",
                 "y": 60,
                 "branches": {
@@ -13614,15 +13880,15 @@
                         "vertices": [
                             [-27257, -7337],
                             [-27257, -6985],
-							[-27129, -6985]
+                            [-27129, -6985]
                         ],
-                        "stations": [933, 941, 953, 961, 971, 980, 981]
+                        "stations": [933, 941, 953, 961, 971, 980, 981, 989]
                     }
                 }
             },
             "Pa": {
                 "prefix": "",
-                "code": "",
+                "code": "Pa",
                 "color": "C5203F",
                 "y": 60,
                 "branches": {
@@ -13635,7 +13901,7 @@
                     }
                 }
             }
-        }
+        },
         "Ethiopia": {
             "Dessie-Trial-Adama": {
                 "prefix": "",
@@ -14225,6 +14491,24 @@
                             [4885.5, -15047]
                         ],
                         "stations": [590, 589, 594]
+                    }
+                }
+            },
+            "North": {
+                "prefix": "",
+                "code": "N",
+                "color": "33B1FF",
+                "y": 9,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [5689, -15815.5],
+                            [5474.5, -15815.5],
+                            [5474.5, -16857.5],
+                            [6117.5, -16857.5],
+                            [6117.5, -16802]
+                        ],
+                        "stations": [584, 922, 923, 924]
                     }
                 }
             }
@@ -15438,7 +15722,7 @@
                     },
                     "Trondheim station platforms": {
                         "vertices": [
-                            
+
                         ],
                         "stations": [[443, "Main line"]]
                     }
